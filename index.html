@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>500 Views of Rome</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #fff;
+            color: #000;
+            font-family: 'Georgia', serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            position: relative;
+        }
+        #logo {
+            width: 80%;
+            max-width: 800px;
+            margin-bottom: 20px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px; /* Maggiore spaziatura tra i pulsanti */
+        }
+        .button {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #00BCD4, #008B8B); /* Gradient turchese */
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            border: none;
+            border-radius: 50%; /* Per rendere il pulsante rotondo */
+            text-transform: uppercase; /* Testo in maiuscolo */
+            font-family: 'Georgia', serif;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+            transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+        }
+        .button:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(135deg, #008B8B, #00BCD4); /* Invert gradient */
+        }
+        .social-icons {
+            position: absolute;
+            top: 20px;
+            right: 150px; /* Posizionamento a destra */
+            display: flex;
+            gap: 20px; /* Spazio tra le icone */
+        }
+        .social-icon {
+            font-size: 48px; /* Dimensione più grande */
+            text-decoration: none;
+        }
+        .instagram-logo {
+            color: #E1306C; /* Colore Instagram */
+        }
+        .facebook-logo {
+            color: #1877F2; /* Colore Facebook */
+        }
+    </style>
+</head>
+<body>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/500viewsofrome/" class="social-icon instagram-logo" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/500ours/about?locale=it_IT" class="social-icon facebook-logo" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+    </div>
+    <img id="logo" src="logo_sfondobianco_corrected.png" alt="Logo 500 Views of Rome">
+    <div class="button-container">
+        <a href="https://www.withlocals.com/it/host/emanueleoc484e84f9/" class="button">Experiences</a>
+        <a href="#" class="button">Souvenirs</a>
+        <a href="https://www.airbnb.it/rooms/51572873?viralityEntryPoint=1&s=76" class="button">Hospitality</a>
+    </div>
+</body>
+</html>
